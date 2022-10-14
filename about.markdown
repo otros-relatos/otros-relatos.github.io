@@ -1,18 +1,24 @@
 ---
 layout: page
-title: About
+title: Acerca de Nosotras
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Somos una asociación civil que trabaja para la prevención de la violencia,
+su impacto en la sociedad y en los vínculos cotidianos.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Partimos del entendimiento de la violencia como una problemática
+social urgente, de caracter multicausal, compleja y multidimensional.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Nuestro objetivo es brindar elementos conceptuales para la identificación
+y comprensión de la temática, haciéndolos extensivos a la comunidad en general.
 
+Ofrecemos herramientas de detección y prevención que permitan acciones directas.
 
-[jekyll-organization]: https://github.com/jekyll
+Ofrecemos:
++ Consultorias
++ Espacios de Reflexión
++ Talleres y Charlas
++ Capacitaciones
++ Supervisión profesional
++ Atención individual
