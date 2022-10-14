@@ -13,10 +13,10 @@ baseurl: ''
 lang: es
 
 # Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
-prefer_datetime_locale:
+prefer_datetime_locale: es-mx
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: America/Argentina/Buenos_Aires
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -24,7 +24,7 @@ timezone:
 title: Otros Relatos
 email: asociacion.otros.relatos@gmail.com
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Asociación Civil de Prevención, Detección y Comprensión de la violencia
 
 description: >- # this means to ignore newlines until "baseurl:"
   Otros Relatos es una asociación civil de
@@ -34,12 +34,12 @@ description: >- # this means to ignore newlines until "baseurl:"
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://otros-relatos.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-twitter_username: RelatosOtros
-github_username:  otros-relatos
+twitter:
+  username: RelatosOtros
+github:
+  username:  otros-relatos
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Asociación Civil Otros Relatos
   email: asociacionotrosrelatos@gmail.com
   links:
@@ -51,7 +51,7 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification:               # fill in to your verification string
+# google_site_verification:
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
@@ -90,7 +90,7 @@ avatar:
 toc: true
 
 comments:
-  active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: giscus
   # The active options are as follows:
   disqus:
     shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -100,7 +100,7 @@ comments:
     issue_term:   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo:             # <gh-username>/<repo>
+    repo: otros-relatos/otros-relatos.github.io
     repo_id:
     category:
     category_id:
